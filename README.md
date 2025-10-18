@@ -1,6 +1,6 @@
 <h1>ExpNo 5 : Implement Minimax Search Algorithm for a Simple TIC-TAC-TOE game</h1> 
-<h3>Name: MOHAMED ARSHADULLAH A       </h3>
-<h3>Register Number/Staff Id: 212224230161   </h3>
+<h3>Name: MOHAMED ARSHADULLAH A         </h3>
+<h3>Register Number/Staff Id: 212224230161         </h3>
 <H3>Aim:</H3>
 <p>
     Implement Minimax Search Algorithm for a Simple TIC-TAC-TOE game
@@ -84,7 +84,7 @@ def minimax(game)
     # Populate the scores array, recursing as needed
     game.get_available_moves.each do |move|
         possible_game = game.get_new_state(move)
-        scores.push minimax(possible_game)        scores.push minimax(possible_game)
+        scores.push minimax(possible_game)
         moves.push move
     end
 
